@@ -9,23 +9,23 @@
     "cy:run:chrome" : "cypress run --browser chrome",
     "cy:run:firefox" : "cypress run --browser firefox",
     "cy:run:electron" : "cypress run --browser electron",
-    "cy:dashboard": "cypress run --record --key 5a6826c9-1753-4693-beea-a1394d8c5156",
+    "cy:dashboard": "cypress run --record --key <record key>",
     "start-jenkins-server" : "java -jar jenkins.war -httpPort=8080 --enable-future-java"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sachinsakpal87/cypress_e2e.git"
+    "url": "git+https://github.com/chandreshpandey/cypress_e2e.git"
   },
   "keywords": [
     "cypress",
     "e2e"
   ],
-  "author": "SACHIN SAKPAL",
+  "author": "CHANDRESH PANDEY",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sachinsakpal87/cypress_e2e/issues"
+    "url": "https://github.com/chandreshpandey/cypress_e2e/issues"
   },
-  "homepage": "https://github.com/sachinsakpal87/cypress_e2e#readme",
+  "homepage": "https://github.com/chandreshpandey/cypress_e2e#readme",
   "dependencies": {
     "cypress": "^5.0.0",
     "prettier": "^2.1.1"
